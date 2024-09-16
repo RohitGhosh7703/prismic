@@ -49,6 +49,7 @@ async function Header() {
                 key={asText(item.label)}
                 className="font-semibold tracking-tight text-slate-800"
               >
+                {/* link */}
                 <PrismicNextLink field={item.link}>
                   <PrismicText field={item.label} />
                 </PrismicNextLink>
